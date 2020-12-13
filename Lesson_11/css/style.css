@@ -1,0 +1,204 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+	font-family: "Gilroy";
+	background: #f2f2f2;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+/* -------------- */
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+._container {
+	max-width: 1140px;
+	margin: 0px auto;
+}
+.documents {
+	padding: 20px 0px 0px 0px;
+	margin: 0 0 40px 0;
+}
+.documents__container {
+}
+.documents__title {
+	margin: 0 0 40px 0;
+}
+.title {
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 40px;
+	text-align: center;
+}
+.documents__items {
+	display: flex;
+}
+.items__column {
+}
+.column__item {
+	width: 262px;
+	height: 190px;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.1);
+}
+.item__logo {
+	text-align: center;
+	padding: 30px 0 0 0;
+	margin: 0 0 17px 0;
+}
+.logo__img {
+}
+
+.item__text {
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 20px;
+	text-align: center;
+}
+.advantages {
+	background-color: #f6f6f6;
+	padding: 60px 0px 60px 0px;
+	margin: 0 0 20px 0;
+}
+
+.advantages__row {
+}
+
+.advantages__column {
+	display: flex;
+}
+
+.advantages__item {
+}
+
+.item-advantages {
+	text-align: center;
+}
+
+.advantages__logo {
+	margin: 0 0 40px 0;
+}
+
+.advantages__subtitle {
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 24px;
+	margin: 0 0 6px 0;
+}
+.advantages__logo_small {
+	padding-top: 25px;
+}
+.advantages__text {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 25px;
+}
+.programms {
+	margin: 100px;
+}
+.programms .programms__title {
+	margin: 0 0 100px 0;
+}
+
+.programms__row {
+	display: flex;
+}
+
+.programms__column {
+}
+
+.programms__item {
+	margin: 0 70px 0 0;
+	text-align: center;
+	box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.0678);
+}
+
+.item__img {
+	margin: 0 0 17px 0;
+}
+
+.item__subtitle {
+	font-weight: 800;
+	font-size: 19px;
+	line-height: 22px;
+	max-width: 215px;
+}
+
+.item__status {
+	font-size: 16px;
+	line-height: 18px;
+	color: green;
+}
+
+.item__price {
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 24px;
+	margin: 30px 0 0 0;
+}
+
+.item__status::before {
+	content: url(../img/Group\ 5.svg);
+}
